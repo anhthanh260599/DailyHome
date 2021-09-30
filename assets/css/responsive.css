@@ -1,0 +1,108 @@
+/*
+    PC: >= 1024px
+    Tablet: >= 740px & < 1024px
+    Mobile: < 740px
+ */
+/* PC */
+@media (min-width:1024px) {
+
+}
+
+/* Tablet */
+@media(min-width:740px) and (max-width:1023px) {
+    .btn {
+        padding: 11px 34px ;
+    }
+    .contact-form .form-controll {
+        padding: 15px;
+    }
+
+    #footer .socials-list {
+        font-size: 40px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+}
+
+ /* Mobile */
+ @media (max-width:740px) {
+    
+    #header {
+        overflow: hidden;
+    }
+    
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    
+    #header .search-btn {
+        display: none;
+    }
+    
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a {
+        width: 100%;
+        padding: 1px 24px;
+    }
+
+    #nav > li {
+        display: block;
+
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background: black;
+        
+    }
+
+    #nav .subnav a {
+        color: white; 
+        padding: 5px 41px;
+        
+    }
+   
+    #content .member-mobile {
+        margin-top: 30px;
+        width: 100%;
+
+    }
+    
+    #content .member-img {
+        width: 50%;
+    }
+
+    .places-items {
+        width: 100%;
+        margin-bottom: 16px;
+     }
+
+.contact-info {
+    width: 100%;
+}
+
+.contact-form {
+    width: 100%;
+    margin-top: 16px;
+ }
+
+ .contact-form .form-controll {
+     line-height: 2;
+ }
+
+ .btn { 
+     width: 100%;
+     text-align: center;
+ }
+
+}
