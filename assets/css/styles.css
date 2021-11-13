@@ -535,4 +535,138 @@ html {
     color: rgba(0, 0, 0, 0.6)
 }
 
+.carousel {
+    background: #EEE;
+    
+  }
+  
+.carousel-cell {
+    width: 66%;
+    height: 600px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+}
+  
+  /* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+/* Highlight */
+/* .highlight-details {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: 50px;
+} */
+/* 
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+table h2 {
+    font-size: 16px;
+    color: #624426;
+    padding-top: 30px;
+    margin-bottom: 12px;
+    margin-top: 0;
+} */
+
+.highlight-item {
+    margin-bottom: 16px;
+}
+
+.highlight-details {
+    margin-left: 16px;
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 205px;
+    overflow: auto;
+    
+}
+
+
+.highlight-details-list {
+    font-family: "Times New Roman";
+    font-size: 1em;
+    color: #826f60;
+    margin: 16px 0;
+}
+
+.highlight-details-dis{
+    font-size: 12px;
+    color: #000000;
+    margin: 16px 0;
+}
+
+.highlight-details-l {
+    text-align: right;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 205px;
+    overflow: auto;
+}
+
+.btn-more {
+    display: inline-block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 18px;
+    border: 1px solid #826f60;
+    /* box-shadow: 0px 0px 0px 1px #826f60; */
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #826f60;
+    text-align: center;
+}
+
+.highlight-section {
+    background-color: #ececec;
+}
+
+.highlight-image {
+    width: 400px;
+    height: 205px;
+    border-radius: 8px;
+}
+
+.highlight-item {
+    display: flex;
+}
+
+
+
+
+
+
 
