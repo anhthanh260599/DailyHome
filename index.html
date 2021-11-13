@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js">
 </head>
 <body>
     <div id="main">
         <div id="header">
+            
+          
+          <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
             <!-- Begin Nav -->
             <ul id="nav">
                 <li><a href="#">Home</a></li>
@@ -48,11 +53,21 @@
 
         </div>
 
-        <div id="slider">
+        <div class="carousel" data-flickity='{ "autoPlay": true }'>
+  
+            <img class="carousel-cell" src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t1.6435-9/p640x640/177400798_102637088653250_3352727722519940908_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=e3f864&_nc_ohc=R2q-gfMLipQAX8gMcLF&_nc_ht=scontent.fsgn5-10.fna&oh=b1427ac9e41c98503f23f09e17b6e657&oe=619F2670" alt="">
+            <img class="carousel-cell" src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t1.6435-9/219758765_142076231376002_2881306981806930930_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=3iDbyxMROVkAX9umQA-&tn=4_K48rngIv6hKXXK&_nc_ht=scontent.fsgn5-8.fna&oh=90afb6a19a3026ab23667a6908f9a751&oe=619C4C2B" alt="">
+            <img class="carousel-cell" src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t1.6435-9/195834006_119949190255373_476138234017639114_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=rGMVJRBdH34AX-20_D5&_nc_ht=scontent.fsgn5-10.fna&oh=402b0c057e2dc77a8e37594bd3bffc14&oe=619E8DF4" alt="">
+            <img class="carousel-cell" src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t1.6435-9/179840644_102652515318374_4736082884418663389_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=q_FTXorhMMwAX-4-4zF&_nc_ht=scontent.fsgn5-11.fna&oh=b3c6e715480a0916f75081d06e014ba4&oe=619C4978" alt="">
+            <img class="carousel-cell" src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t1.6435-9/180468818_104167901833502_2128583493048173916_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=jTslOJPIugUAX86JQuv&_nc_ht=scontent.fsgn5-10.fna&oh=52908398fb542afb2e65363f2a39b5c5&oe=619F4CF7" alt="">
+        
+      </div>
+
+        <!-- <div id="slider">
             <div class="text-content">
                 <h2 class="text-heading">Daily Home</h2>
                 <div class="text-description">Cuộc sống bình yên</div>
-            </div>
+            </div> -->
 
         </div>
 
@@ -129,6 +144,7 @@
                     <div class="clear"></div>
                 </div>
             </div>
+    
             <!-- Begin Contact Section -->
             <div id="Contact" class="content-section">
                 <h2 class="section-heading"> Contact</h2>
@@ -162,8 +178,85 @@
                     </div>
                 </div>          
             </div>
-            <!-- End Contact Section -->
+             <!-- Highlight Section -->
+          <div id="Highlight" class="highlight-section">
+            <div class="content-section"> 
+                <h2 class="section-heading"> Highlight</h2>
+                <p class="section-sub-heading">Một số hình ảnh nổi bậtt</p> 
+                <div class="highlight-item">
+                    <img class="highlight-image" src="./assets/css/img/meeting.jpg" alt="">                   
+                    <div class="highlight-details">
+                        <div class="highlight-details-list">
+                            MEETINGS 
+                        </div>
+                        <p class="highlight-details-dis">
+                            Khi mọi thứ xung quanh trở nên khó khăn với quá nhiều sự biến đổi mà khiến mình tưởng chừng như bế tắc, mình lại nhìn thấy mấy cây dại nhỏ xinh quanh vườn, vẫn mọc lên và tươi đẹp, mặc cho nắng hạn hay mưa giông.
+                        </p>
+                        <p><a href="#" class="btn-more gtm-highlights">LEARN MORE</a></p>
+                    </div>
+                </div>    
             
+                <div class="highlight-item">
+                    <div class="highlight-details-l">
+                        <div class="highlight-details-list">
+                          ROOMS 
+                        </div>
+                        <p class="highlight-details-dis">
+                            Khi mọi thứ xung quanh trở nên khó khăn với quá nhiều sự biến đổi mà khiến mình tưởng chừng như bế tắc, mình lại nhìn thấy mấy cây dại nhỏ xinh quanh vườn, vẫn mọc lên và tươi đẹp, mặc cho nắng hạn hay mưa giông.
+                        </p>
+                        <p><a href="#" class="btn-more gtm-highlights">LEARN MORE</a></p>
+                    </div>
+                    <img class="highlight-image" src="./assets/css/img/bed room 2.jpg" alt="">
+                </div>
+                              
+            
+            <!-- <img class="highlight-image" src="https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.6435-9/243028662_187523740164584_2301544580781695456_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=Uv1pgHoWCRUAX_Sol01&_nc_ht=scontent.fsgn5-5.fna&oh=8cd9cc0e6f58f9e2f83e3ef578b8ab15&oe=619D65B9" alt="">                   
+            <div class="highlight-details">
+                <div class="highlight-details-list">
+                      FOOD & BEVERAGE 
+                </div>
+                <p class="highlight-details-dis">
+                    Khi mọi thứ xung quanh trở nên khó khăn với quá nhiều sự biến đổi mà khiến mình tưởng chừng như bế tắc, mình lại nhìn thấy mấy cây dại nhỏ xinh quanh vườn, vẫn mọc lên và tươi đẹp, mặc cho nắng hạn hay mưa giông.
+                </p>
+                <p><a href="#" class="btn-more gtm-highlights">LEARN MORE</a></p>
+            </div>
+            <img class="highlight-image" src="https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.6435-9/243028662_187523740164584_2301544580781695456_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=Uv1pgHoWCRUAX_Sol01&_nc_ht=scontent.fsgn5-5.fna&oh=8cd9cc0e6f58f9e2f83e3ef578b8ab15&oe=619D65B9" alt="">                   
+            <div class="highlight-details">
+                <div class="highlight-details-list">
+                      SMALL GARDEN 
+                </div>
+                <p class="highlight-details-dis">
+                    Khi mọi thứ xung quanh trở nên khó khăn với quá nhiều sự biến đổi mà khiến mình tưởng chừng như bế tắc, mình lại nhìn thấy mấy cây dại nhỏ xinh quanh vườn, vẫn mọc lên và tươi đẹp, mặc cho nắng hạn hay mưa giông.
+                </p>
+                <p><a href="#" class="btn-more gtm-highlights">LEARN MORE</a></p>
+            </div> -->
+           
+
+            <!-- <table class="highlight-details">
+                <tbody> 
+                    <tr>
+                        <td>
+                            <h2 class="didot-font">
+                                <div class = "meetings">MEETINGS</div>
+                            </h2>
+                            <p class = "meetings-dis">
+                                New World Saigon Hotel offers over 2,000 square feet of unique and functional spaces for business and social events, including three state-of-the-art ballrooms, four modern, versatile meeting rooms and the largest outdoor event venues in Ho Chi Minh City. 
+                            </p>
+                            <p>
+                                <a href="#" class="btn-more gtm-highlights">LEARN MORE</a>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table> -->
+            </div>
+            
+          </div>
+            
+            
+           
+
+
             <div class="map-section">
                 <img src="/assets/css/img/maps.jpg" alt="Maps">
             </div>
@@ -176,6 +269,9 @@
             <p class="copyright">Powered by <a href="https://www.google.com/">Google.com</a></p>
         </div>
         
+      
+           
+
     </div>
     <div class="modal js-modal">
         <div class="modal-container js-modal-container">
@@ -279,7 +375,12 @@
             modalContainer.addEventListener('click', function(event){
                 event.stopPropagation()
             })
+
+            
         </script>
+
+
+
     </div>
 
 </body>
